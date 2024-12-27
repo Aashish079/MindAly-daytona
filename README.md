@@ -2,25 +2,67 @@
 
 ---
 
-## How to Run MindAily:
+<h3 align="center"></h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+ <img src="https://img.shields.io/badge/OpenAI-blue?style=for-the-badge&logo=openai">
+<img src="https://img.shields.io/badge/Daytona-black?style=for-the-badge">
+</p>
+
+### Open Using Daytona
+
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+2. **Create the Workspace**:
+   ```bash
+   daytona create https://github.com/Aashish079/MindAly-daytona.
+   ```
+3. **Create your own .env file under the backend directory**:
+   ```bash
+     OPENAI_API_KEY=your-api-key-goes-here
+     MONGODB_URI=your-mongodb-uri-goes-here
+     PORT = 8080
+     CORS_ORIGIN = *
+   ```
+4. **Start the Application**:
+
+   cd into backend Folder
+
+   ```bash
+   node server.js
+   ```
+
+   cd into frontend Folder
+
+   ```bash
+   npm run dev
+   ```
+
+## Configuration
+
+- Obtain your OpenAI API key: Visit [OpenAI](https://openai.com/product) to get your API key.
+
+## How to Run MindAily locally:
 
 1. **Clone the Repository:**
-`git clone https://github.com/Aashish079/Quine-MindAily.git`
+   `git clone https://github.com/Aashish079/Quine-MindAily.git`
 
 2. **Navigate to the Project Directory:**
-`cd mindaily`
+   `cd mindaily`
 
 3. **Install Dependencies:**
-`npm install`
+   `npm install`
 
 4. **Start the Development Server:**
-`npm run dev`
+   `npm run dev`
 
 5. **Open Your Browser:**
-Visit http://localhost:3000 to access MindAily.
+   Visit http://localhost:3000 to access MindAily.
 
 6. **Start Chatting and Connecting:**
-Dive into MindAily's judgment-free space and connect with others to share and support each other through life's complexities.
+   Dive into MindAily's judgment-free space and connect with others to share and support each other through life's complexities.
 
 ---
 
@@ -63,6 +105,7 @@ The journey continues as MindAily evolves to meet the changing mental health lan
 - Daytona
 
 ---
+
 DEMO:
 ![alt text](image.png)
 ![alt text](image-1.png)
